@@ -1,0 +1,19 @@
+# Environment / secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Runtime outputs
+logs/*
+!logs/.gitkeep
+data/incoming/*
+!data/incoming/.gitkeep
+data/rejected/*
+!data/rejected/.gitkeep
+
+# OS
+.DS_Store
